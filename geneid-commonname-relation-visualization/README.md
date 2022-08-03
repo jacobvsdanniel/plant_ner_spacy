@@ -2,8 +2,6 @@
 
 #### A visualization tool for displaying GeneID-CommonName-relations in literature extracted by ORE
 
-author: penghsuan.li [at] ailabs.tw
-
 ## Dataset
 
 - Sci-Hub -> Papers
