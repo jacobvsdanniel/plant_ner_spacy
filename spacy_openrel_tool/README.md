@@ -1,7 +1,5 @@
 # Spacy ORE
 
-author: penghsuan.li@ailabs.tw, ting830812
-
 ## Development Environment
 
 - Python 3.6.9
