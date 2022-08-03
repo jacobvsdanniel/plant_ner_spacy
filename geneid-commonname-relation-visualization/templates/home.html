@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <title>Plant Viewer</title>
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <style type="text/css">
+      #div_graph {
+          width: 1200px;
+          height: 600px;
+          border: 2px solid lightgray;
+      }
+  </style>
+</head>
+<body>
+
+<h1>Plant Viewer</h1>
+<br />
+
+<div id="div_graph"></div>
+<br /><br />
+
+<div id="div_panel">
+    <label>Plant:</label>
+    <select id="sl_plant" name="sl_plant" onchange="run_load_gene_list()">
+        <option value="--select--">--select--</option>
+        <option value="Arabidopsis thaliana">Arabidopsis thaliana</option>
+        <option value="Populus trichocarpa">Populus trichocarpa</option>
+    </select>
+    <br /><br />
+
+    <label>GeneID:</label>
+    <select id="sl_gene" name="sl_gene" onchange="run_select_gene_id()">
+        <option value="--select--">--select--</option>
+    </select>
+
+    <label> or type:</label>
+    <textarea id="ta_gene">&lt;GeneID&gt;</textarea>
+    <br /><br />
+
+    <button type="submit" class="input_submit" onClick="run_generate_graph()">Generate graph</button>
+    <br /><br />
+
+    <div id="div_status">Ready</div>
+</div>
+
+<script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

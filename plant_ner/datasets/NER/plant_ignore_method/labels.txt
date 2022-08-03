@@ -1,0 +1,11 @@
+B-CommonName
+B-Compound
+B-Location
+B-Process
+B-Species
+I-CommonName
+I-Compound
+I-Location
+I-Process
+I-Species
+O
