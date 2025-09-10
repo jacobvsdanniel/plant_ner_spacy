@@ -1,0 +1,4 @@
+transformers==3.0.0
+seqeval==1.2.2
+nltk==3.6.7
+torch==1.6.0+cu101
