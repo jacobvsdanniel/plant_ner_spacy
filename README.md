@@ -3,8 +3,8 @@
 #### NER, spaCy ORE, and query visualization for plant literature mining.
 
 Authors:
-- Peng-Hsuan Li @ Taiwan AI Labs (jacobvsdanniel [at] gmail.com)
-- Ting-Fu Chen @ Taiwan AI Labs (ting830812 [at] gmail.com)
+- 李朋軒 Li Peng-Hsuan (jacobvsdanniel [at] gmail.com) @ Taiwan AI Labs
+- 陳亭甫 Chen Ting-Fu (ting830812 [at] gmail.com) @ Taiwan AI Labs
 
 Components:
 - [NER](https://github.com/jacobvsdanniel/plant_ner_spacy/tree/main/plant_ner)
